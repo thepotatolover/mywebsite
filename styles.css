@@ -57,7 +57,7 @@ a {
   @media only screen and (max-width: 900px) {
     body {
         background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(53,36,136,1) 25%, rgba(95,26,96,1) 50%, rgba(24,59,69,1) 75%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 139%);     
+        background: linear-gradient(90deg, rgba(0,255,229,1) 0%, rgba(0,84,255,1) 42%, rgba(160,0,255,1) 65%) 139%;     
     }
   }
 .footer {
