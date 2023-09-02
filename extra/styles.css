@@ -17,7 +17,7 @@ h1 {
 }
 .info {
     position: absolute;
-    padding: 20px;
+    padding: 35px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
