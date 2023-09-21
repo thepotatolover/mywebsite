@@ -12,6 +12,14 @@ body {
     background-color: black
 }
 
+button {
+  border-radius: 20px;
+  padding: 10px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: black;
+  color: white;
+}
+
 h1 {
     text-align: center;
 }
