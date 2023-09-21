@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head><style>.ads-ad, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .commercial-unit-mobile-top { display: none !important; }</style><style>div[data-text-ad], .ads-ad, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .commercial-unit-mobile-top { display: none !important; }</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Software download</title>
 </head>
 <body>
-    <input name="softwarename" type="text" maxlength="512" id="softwarename" class="searchField"/>
+    <div class="info">
+        <h1>Software Download</h1>
+        <p>Software available: Firefox, VSCode, Parsec, Chrome</p>
+        <center>
+        <input name="softwarename" type="text" maxlength="512" id="softwarename" class="searchField`">
+        <br>
+        <button type="button" onclick="download()">Submit</button>
+        </center>
+    </div>
     <script>
         function download(){
             let output = document.getElementById("softwarename").value;
@@ -20,6 +27,8 @@
     }
         }
     </script>
-    <button type="button" onclick=download()>Submit</button>
-</body>
-</html>
+    <div class="wrap">
+
+</div>
+    
+</body></html>
